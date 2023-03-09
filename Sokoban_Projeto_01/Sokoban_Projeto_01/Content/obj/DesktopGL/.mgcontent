@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Daniel/ipca/licenciatura/Tecnicas de Desenvolvimento de Videojogos/git/sokoban_Aula_03/Sokoban_Projeto_01/Sokoban_Projeto_01/Content/Character4.png</File>
+    <File>C:/Daniel/ipca/licenciatura/Tecnicas de Desenvolvimento de Videojogos/git/sokoban_Aula_03/Sokoban_Projeto_01/Sokoban_Projeto_01/Content/Crate_Brown.png</File>
+    <File>C:/Daniel/ipca/licenciatura/Tecnicas de Desenvolvimento de Videojogos/git/sokoban_Aula_03/Sokoban_Projeto_01/Sokoban_Projeto_01/Content/EndPoint_Blue.png</File>
+    <File>C:/Daniel/ipca/licenciatura/Tecnicas de Desenvolvimento de Videojogos/git/sokoban_Aula_03/Sokoban_Projeto_01/Sokoban_Projeto_01/Content/File.spritefont</File>
+    <File>C:/Daniel/ipca/licenciatura/Tecnicas de Desenvolvimento de Videojogos/git/sokoban_Aula_03/Sokoban_Projeto_01/Sokoban_Projeto_01/Content/Wall_Brown.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
