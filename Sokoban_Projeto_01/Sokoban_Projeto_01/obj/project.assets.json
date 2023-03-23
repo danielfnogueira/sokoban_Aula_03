@@ -108,11 +108,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Daniel\\ipca\\licenciatura\\Tecnicas de Desenvolvimento de Videojogos\\git\\sokoban_Aula_03\\Sokoban_Projeto_01\\Sokoban_Projeto_01\\Sokoban_Projeto_01.csproj",
+      "projectUniqueName": "C:\\Daniel\\ipca\\licenciatura\\Tecnicas de Desenvolvimento de Videojogos\\aulas\\aula 07\\sokoban_Aula_03\\Sokoban_Projeto_01\\Sokoban_Projeto_01\\Sokoban_Projeto_01.csproj",
       "projectName": "Sokoban_Projeto_01",
-      "projectPath": "C:\\Daniel\\ipca\\licenciatura\\Tecnicas de Desenvolvimento de Videojogos\\git\\sokoban_Aula_03\\Sokoban_Projeto_01\\Sokoban_Projeto_01\\Sokoban_Projeto_01.csproj",
+      "projectPath": "C:\\Daniel\\ipca\\licenciatura\\Tecnicas de Desenvolvimento de Videojogos\\aulas\\aula 07\\sokoban_Aula_03\\Sokoban_Projeto_01\\Sokoban_Projeto_01\\Sokoban_Projeto_01.csproj",
       "packagesPath": "C:\\Users\\fonte\\.nuget\\packages\\",
-      "outputPath": "C:\\Daniel\\ipca\\licenciatura\\Tecnicas de Desenvolvimento de Videojogos\\git\\sokoban_Aula_03\\Sokoban_Projeto_01\\Sokoban_Projeto_01\\obj\\",
+      "outputPath": "C:\\Daniel\\ipca\\licenciatura\\Tecnicas de Desenvolvimento de Videojogos\\aulas\\aula 07\\sokoban_Aula_03\\Sokoban_Projeto_01\\Sokoban_Projeto_01\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -168,19 +168,19 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.14, 6.0.14]"
+            "version": "[6.0.15, 6.0.15]"
           },
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.14, 6.0.14]"
+            "version": "[6.0.15, 6.0.15]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.14, 6.0.14]"
+            "version": "[6.0.15, 6.0.15]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.14, 6.0.14]"
+            "version": "[6.0.15, 6.0.15]"
           }
         ],
         "frameworkReferences": {
@@ -188,7 +188,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.104\\RuntimeIdentifierGraph.json"
       }
     }
   }

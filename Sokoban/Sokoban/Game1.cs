@@ -1,7 +1,8 @@
-﻿using Microsoft.Xna.Framework;
+﻿using System.Collections.Generic;
+using System.IO;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using System.IO;
 
 namespace Sokoban
 {
@@ -15,7 +16,6 @@ namespace Sokoban
         private char[,] level;
         private Texture2D player, dot, box, wall; //Load images Texture 
         int tileSize = 64; //potencias de 2 (operações binárias)
-        private Player sokoban;
 
         public Game1()
         {
@@ -30,10 +30,6 @@ namespace Sokoban
 
             base.Initialize();
             LoadLevel("level1.txt"); // Carrega o ficheiro "level1.txt"
-            _graphics.PreferredBackBufferHeight = tileSize * level.GetLength(1); //definição da altura
-            _graphics.PreferredBackBufferWidth = tileSize * level.GetLength(0); //definição da largura
-            _graphics.ApplyChanges(); //aplica a atualização da janela
-
         }
 
         protected override void LoadContent()
@@ -74,14 +70,11 @@ namespace Sokoban
             {
                 for (int y = 0; y < level.GetLength(1); y++) //pega a segunda dimensão
                 {
-                    position.X = x * tileSize; // define o position
-                    position.Y = y * tileSize; // define o position
-
                     switch (level[x, y])
                     {
-                        //case 'Y':
-                        //    _spriteBatch.Draw(player, position, Color.White);
-                        //    break;
+                        case 'Y':
+                            _spriteBatch.Draw(player, position, Color.White);
+                            break;
                         case '#':
                             _spriteBatch.Draw(box, position, Color.White);
                             break;
@@ -94,9 +87,7 @@ namespace Sokoban
                     }
                 }
             }
-            position.X = sokoban.Position.X * tileSize; //posição do Player
-            position.Y = sokoban.Position.Y * tileSize; //posição do Player
-            _spriteBatch.Draw(player, position, Color.White); //desenha o Player
+
             _spriteBatch.End();
 
 
@@ -114,9 +105,14 @@ namespace Sokoban
             {
                 for (int y = 0; y < nrLinhas; y++)
                 {
-                    if (linhas[y][x] == 'Y')
+                    if (linhas[y][x] == '#')
                     {
-                        sokoban = new Player(x, y);
+                        boxes.Add(new Point(x, y));
+                        level[x, y] = ' '; // put a blank instead of the box '#'
+                    }
+                    else if (linhas[y][x] == 'Y')
+                    {
+                        sokoban = new Player(this, x, y);
                         level[x, y] = ' '; // put a blank instead of the sokoban 'Y'
                     }
                     else
@@ -125,8 +121,6 @@ namespace Sokoban
                     }
                 }
             }
-
-
         }
 
     }

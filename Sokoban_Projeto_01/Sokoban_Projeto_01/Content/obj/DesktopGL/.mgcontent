@@ -4,13 +4,31 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>C:/Daniel/ipca/licenciatura/Tecnicas de Desenvolvimento de Videojogos/git/sokoban_Aula_03/Sokoban_Projeto_01/Sokoban_Projeto_01/Content/Character1.png</File>
+    <File>C:/Daniel/ipca/licenciatura/Tecnicas de Desenvolvimento de Videojogos/git/sokoban_Aula_03/Sokoban_Projeto_01/Sokoban_Projeto_01/Content/Character10.png</File>
+    <File>C:/Daniel/ipca/licenciatura/Tecnicas de Desenvolvimento de Videojogos/git/sokoban_Aula_03/Sokoban_Projeto_01/Sokoban_Projeto_01/Content/Character2.png</File>
+    <File>C:/Daniel/ipca/licenciatura/Tecnicas de Desenvolvimento de Videojogos/git/sokoban_Aula_03/Sokoban_Projeto_01/Sokoban_Projeto_01/Content/Character3.png</File>
     <File>C:/Daniel/ipca/licenciatura/Tecnicas de Desenvolvimento de Videojogos/git/sokoban_Aula_03/Sokoban_Projeto_01/Sokoban_Projeto_01/Content/Character4.png</File>
+    <File>C:/Daniel/ipca/licenciatura/Tecnicas de Desenvolvimento de Videojogos/git/sokoban_Aula_03/Sokoban_Projeto_01/Sokoban_Projeto_01/Content/Character5.png</File>
+    <File>C:/Daniel/ipca/licenciatura/Tecnicas de Desenvolvimento de Videojogos/git/sokoban_Aula_03/Sokoban_Projeto_01/Sokoban_Projeto_01/Content/Character6.png</File>
+    <File>C:/Daniel/ipca/licenciatura/Tecnicas de Desenvolvimento de Videojogos/git/sokoban_Aula_03/Sokoban_Projeto_01/Sokoban_Projeto_01/Content/Character7.png</File>
+    <File>C:/Daniel/ipca/licenciatura/Tecnicas de Desenvolvimento de Videojogos/git/sokoban_Aula_03/Sokoban_Projeto_01/Sokoban_Projeto_01/Content/Character8.png</File>
+    <File>C:/Daniel/ipca/licenciatura/Tecnicas de Desenvolvimento de Videojogos/git/sokoban_Aula_03/Sokoban_Projeto_01/Sokoban_Projeto_01/Content/Character9.png</File>
     <File>C:/Daniel/ipca/licenciatura/Tecnicas de Desenvolvimento de Videojogos/git/sokoban_Aula_03/Sokoban_Projeto_01/Sokoban_Projeto_01/Content/Crate_Brown.png</File>
     <File>C:/Daniel/ipca/licenciatura/Tecnicas de Desenvolvimento de Videojogos/git/sokoban_Aula_03/Sokoban_Projeto_01/Sokoban_Projeto_01/Content/EndPoint_Blue.png</File>
     <File>C:/Daniel/ipca/licenciatura/Tecnicas de Desenvolvimento de Videojogos/git/sokoban_Aula_03/Sokoban_Projeto_01/Sokoban_Projeto_01/Content/File.spritefont</File>
     <File>C:/Daniel/ipca/licenciatura/Tecnicas de Desenvolvimento de Videojogos/git/sokoban_Aula_03/Sokoban_Projeto_01/Sokoban_Projeto_01/Content/Wall_Brown.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
