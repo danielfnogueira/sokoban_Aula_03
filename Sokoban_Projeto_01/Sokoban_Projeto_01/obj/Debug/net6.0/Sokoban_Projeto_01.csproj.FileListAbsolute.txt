@@ -29,3 +29,13 @@ C:\Daniel\ipca\licenciatura\Tecnicas de Desenvolvimento de Videojogos\git\sokoba
 C:\Daniel\ipca\licenciatura\Tecnicas de Desenvolvimento de Videojogos\git\sokoban_Aula_03\Sokoban_Projeto_01\Sokoban_Projeto_01\bin\Debug\net6.0\Content\Crate_Brown.xnb
 C:\Daniel\ipca\licenciatura\Tecnicas de Desenvolvimento de Videojogos\git\sokoban_Aula_03\Sokoban_Projeto_01\Sokoban_Projeto_01\bin\Debug\net6.0\Content\EndPoint_Blue.xnb
 C:\Daniel\ipca\licenciatura\Tecnicas de Desenvolvimento de Videojogos\git\sokoban_Aula_03\Sokoban_Projeto_01\Sokoban_Projeto_01\bin\Debug\net6.0\Content\Wall_Brown.xnb
+C:\Daniel\ipca\licenciatura\Tecnicas de Desenvolvimento de Videojogos\git\sokoban_Aula_03\Sokoban_Projeto_01\Sokoban_Projeto_01\bin\Debug\net6.0\Content\Character1.xnb
+C:\Daniel\ipca\licenciatura\Tecnicas de Desenvolvimento de Videojogos\git\sokoban_Aula_03\Sokoban_Projeto_01\Sokoban_Projeto_01\bin\Debug\net6.0\Content\Character10.xnb
+C:\Daniel\ipca\licenciatura\Tecnicas de Desenvolvimento de Videojogos\git\sokoban_Aula_03\Sokoban_Projeto_01\Sokoban_Projeto_01\bin\Debug\net6.0\Content\Character2.xnb
+C:\Daniel\ipca\licenciatura\Tecnicas de Desenvolvimento de Videojogos\git\sokoban_Aula_03\Sokoban_Projeto_01\Sokoban_Projeto_01\bin\Debug\net6.0\Content\Character3.xnb
+C:\Daniel\ipca\licenciatura\Tecnicas de Desenvolvimento de Videojogos\git\sokoban_Aula_03\Sokoban_Projeto_01\Sokoban_Projeto_01\bin\Debug\net6.0\Content\Character5.xnb
+C:\Daniel\ipca\licenciatura\Tecnicas de Desenvolvimento de Videojogos\git\sokoban_Aula_03\Sokoban_Projeto_01\Sokoban_Projeto_01\bin\Debug\net6.0\Content\Character6.xnb
+C:\Daniel\ipca\licenciatura\Tecnicas de Desenvolvimento de Videojogos\git\sokoban_Aula_03\Sokoban_Projeto_01\Sokoban_Projeto_01\bin\Debug\net6.0\Content\Character7.xnb
+C:\Daniel\ipca\licenciatura\Tecnicas de Desenvolvimento de Videojogos\git\sokoban_Aula_03\Sokoban_Projeto_01\Sokoban_Projeto_01\bin\Debug\net6.0\Content\Character8.xnb
+C:\Daniel\ipca\licenciatura\Tecnicas de Desenvolvimento de Videojogos\git\sokoban_Aula_03\Sokoban_Projeto_01\Sokoban_Projeto_01\bin\Debug\net6.0\Content\Character9.xnb
+C:\Daniel\ipca\licenciatura\Tecnicas de Desenvolvimento de Videojogos\git\sokoban_Aula_03\Sokoban_Projeto_01\Sokoban_Projeto_01\bin\Debug\net6.0\Content\arial12.xnb
