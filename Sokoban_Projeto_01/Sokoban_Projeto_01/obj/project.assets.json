@@ -191,5 +191,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.104\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache C:\\Daniel\\ipca\\licenciatura\\Tecnicas de Desenvolvimento de Videojogos\\git\\sokoban_Aula_03\\Sokoban_Projeto_01\\Sokoban_Projeto_01\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

@@ -30,7 +30,11 @@ namespace Sokoban_Projeto_01
         private SpriteBatch _spriteBatch;
         private int nrLinhas = 0;
         private int nrColunas = 0;
+<<<<<<< HEAD
         private SpriteFont font, arial12;
+=======
+        private SpriteFont font;
+>>>>>>> 9fa3bed37ff54449df9d10a9666ac18e61f0f638
         private Texture2D dot, box, wall; //Load images Texture 
         //private Texture2D[] player;
         private Player sokoban;
@@ -70,7 +74,10 @@ namespace Sokoban_Projeto_01
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             // Use the name of your sprite font file here instead of 'File'.
             font = Content.Load<SpriteFont>("File");
+<<<<<<< HEAD
             arial12 = Content.Load<SpriteFont>("arial12");
+=======
+>>>>>>> 9fa3bed37ff54449df9d10a9666ac18e61f0f638
             //player = Content.Load<Texture2D>("Character4");
             dot = Content.Load<Texture2D>("EndPoint_Blue");
             box = Content.Load<Texture2D>("Crate_Brown");

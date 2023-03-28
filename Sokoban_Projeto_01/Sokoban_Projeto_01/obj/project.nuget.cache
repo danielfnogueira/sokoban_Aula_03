@@ -11,5 +11,12 @@
     "C:\\Users\\fonte\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.15\\microsoft.aspnetcore.app.ref.6.0.15.nupkg.sha512",
     "C:\\Users\\fonte\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.15\\microsoft.netcore.app.host.win-x64.6.0.15.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache C:\\Daniel\\ipca\\licenciatura\\Tecnicas de Desenvolvimento de Videojogos\\git\\sokoban_Aula_03\\Sokoban_Projeto_01\\Sokoban_Projeto_01\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
