@@ -1,17 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Input;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-<<<<<<< HEAD
-//using System.Numerics;
-=======
-using System.Numerics;
->>>>>>> 9fa3bed37ff54449df9d10a9666ac18e61f0f638
-using System.Reflection.Metadata;
+using Microsoft.Xna.Framework.Input;
 
 namespace Sokoban_Projeto_01
 {
@@ -24,33 +13,15 @@ namespace Sokoban_Projeto_01
     public class Player
     {
         // Current player position in the matrix (multiply by tileSize prior to drawing)
-        private Point position; //Point = Vector2, mas são inteiros
-        private Game1 game; //reference from Game1 to Player
-<<<<<<< HEAD
-        //private bool keysReleased = true;
-        private Direction direction = Direction.Down;
+        private Point position;  // Point = Vector2, mas são inteiros
+        private Game1 game;      // reference from Game1 to Player
         private int delta = 0;
-        private int speed = 2; // NOTA: tem de ser divisor de tileSize
-        private Vector2 directionVector;
-
-        public Point Position => position; //auto função (equivalente a ter só get sem put)
-        
-=======
-        private bool keysReleased = true;
-        private Direction direction = Direction.Down;
-
-        public Point Position => position; //auto função (equivalente a ter só get sem put)
-        
-
->>>>>>> 9fa3bed37ff54449df9d10a9666ac18e61f0f638
-        // Direction 
         private Texture2D[][] sprites;
-
-        // Funções:
-        // - Draw(player)
-        // - LoadContents(player)
-
-        public Player(Game1 game1, int x, int y) //constructor que dada a as +osições guarda a sua posição
+        private Vector2 directionVector;
+        private int speed = 2; // NOTA: tem de ser divisor de tileSize
+        private Direction direction = Direction.Down;
+        
+         public Player(Game1 game1, int x, int y) //constructor que dada a as +osições guarda a sua posição
         {
             position = new Point(x, y);
             game = game1;
@@ -78,90 +49,46 @@ namespace Sokoban_Projeto_01
 
         public void Update(GameTime gameTime)
         {
-<<<<<<< HEAD
             if (delta > 0)
             {
                 delta = (delta + speed) % Game1.tileSize;
             }
             else
             {
-                Point lastPosition = position;
                 KeyboardState kState = Keyboard.GetState();
-=======
-            Point lastPosition = position;
-            KeyboardState kState = Keyboard.GetState();
-            if (keysReleased)
-            {
-                keysReleased = false;
->>>>>>> 9fa3bed37ff54449df9d10a9666ac18e61f0f638
-                if ((kState.IsKeyDown(Keys.A)) || (kState.IsKeyDown(Keys.Left)))
+                Point lastPosition = position;
+
+                if (kState.IsKeyDown(Keys.A))
                 {
                     position.X--;
                     direction = Direction.Left;
-<<<<<<< HEAD
                     delta = speed;
                     // directionVector = new Vector2(-1, 0);
                     directionVector = -Vector2.UnitX;
-=======
->>>>>>> 9fa3bed37ff54449df9d10a9666ac18e61f0f638
                 }
-                else if ((kState.IsKeyDown(Keys.W)) || (kState.IsKeyDown(Keys.Up)))
+                else if (kState.IsKeyDown(Keys.W))
                 {
                     position.Y--;
                     direction = Direction.Up;
-<<<<<<< HEAD
                     delta = speed;
                     directionVector = -Vector2.UnitY;
-=======
->>>>>>> 9fa3bed37ff54449df9d10a9666ac18e61f0f638
                 }
-                else if ((kState.IsKeyDown(Keys.S)) || (kState.IsKeyDown(Keys.Down)))
+                else if (kState.IsKeyDown(Keys.S))
                 {
                     position.Y++;
                     direction = Direction.Down;
-<<<<<<< HEAD
                     delta = speed;
                     directionVector = Vector2.UnitY;
                 }
-                else if ((kState.IsKeyDown(Keys.D)) || (kState.IsKeyDown(Keys.Right)))
-                {
-                        position.X++;
-                        direction = Direction.Right;
-                        delta = speed;
-                        directionVector = Vector2.UnitX;
-                }
-
-                // destino é caixa?
-                if (game.HasBox(position.X, position.Y))
-                {
-                        int deltaX = position.X - lastPosition.X;
-                        int deltaY = position.Y - lastPosition.Y;
-                        Point boxTarget = new Point(deltaX + position.X, deltaY + position.Y);
-                        //  se sim, caixa pode mover-se?
-                        if (game.FreeTile(boxTarget.X, boxTarget.Y))
-                        {
-                            for (int i = 0; i < game.boxes.Count; i++)
-                            {
-                                if (game.boxes[i].X == position.X && game.boxes[i].Y == position.Y)
-                                {
-                                    game.boxes[i] = boxTarget;
-                                }
-                            }
-                        }
-                        else
-                        {
-                            position = lastPosition;
-                            delta = 0;
-                        }
-=======
-                }
-                else if ((kState.IsKeyDown(Keys.D)) || (kState.IsKeyDown(Keys.Right)))
+                else if (kState.IsKeyDown(Keys.D))
                 {
                     position.X++;
                     direction = Direction.Right;
+                    delta = speed;
+                    directionVector = Vector2.UnitX;
                 }
-                else keysReleased = true;
-                
+
+
                 // destino é caixa?
                 if (game.HasBox(position.X, position.Y))
                 {
@@ -172,48 +99,30 @@ namespace Sokoban_Projeto_01
                     if (game.FreeTile(boxTarget.X, boxTarget.Y))
                     {
                         for (int i = 0; i < game.boxes.Count; i++)
-                        {
                             if (game.boxes[i].X == position.X && game.boxes[i].Y == position.Y)
-                            {
                                 game.boxes[i] = boxTarget;
-                            }
-                        }
                     }
                     else
-                    {
-                        position = lastPosition;
-                    }
->>>>>>> 9fa3bed37ff54449df9d10a9666ac18e61f0f638
-                }
-                else
-                {
-                    //  se não é caixa, se não está livre, parado!
-                    if (!game.FreeTile(position.X, position.Y))
-<<<<<<< HEAD
                     {
                         position = lastPosition;
                         delta = 0;
                     }
                 }
-
-=======
-                        position = lastPosition;
-                }
-            }
-            else
-            {
-                if (kState.IsKeyUp(Keys.A) && kState.IsKeyUp(Keys.W) &&
-                    kState.IsKeyUp(Keys.S) && kState.IsKeyUp(Keys.D))
+                else
                 {
-                    keysReleased = true;
+                    //  se não é caixa, se não está livre, parado!
+                    if (!game.FreeTile(position.X, position.Y))
+                    {
+                        delta = 0;
+                        position = lastPosition;
+                    }
                 }
->>>>>>> 9fa3bed37ff54449df9d10a9666ac18e61f0f638
+
             }
         }
 
         public void Draw(SpriteBatch sb)
         {
-<<<<<<< HEAD
             // Point(1,1) => Vector(1,1) => Vector(64,64) => Vector(64,64) + delta * Vector(1,0)
             // Vector(64 + delta, 64)
             // 0,0 => 1,0
@@ -234,13 +143,7 @@ namespace Sokoban_Projeto_01
             //                               Game1.tileSize, Game1.tileSize);
             Rectangle rect = new Rectangle(pos.ToPoint(), new Point(Game1.tileSize));
             sb.Draw(sprites[(int)direction][frame], rect, Color.White); //desenha o Player
-=======
-            Rectangle rect = new Rectangle(Game1.tileSize * position.X, 
-                                           Game1.tileSize * position.Y,
-                                           Game1.tileSize, Game1.tileSize);
-
-            sb.Draw(sprites[(int)direction][0], rect, Color.White); //desenha o Player
->>>>>>> 9fa3bed37ff54449df9d10a9666ac18e61f0f638
+            
         }
 
     }
